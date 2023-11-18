@@ -1,0 +1,17 @@
+[
+  {"name": "Thinkpad","price": 6000,"quantity": 8},
+  {"name": "Dell","price": 12000,"quantity": 4},
+  {"name": "HP","price": 20000,"quantity":3 },
+  {"name": "Mac Book","price": 17000,"quantity": 6},
+  {"name": "Lenovo","price": 19999,"quantity": 2},
+  {"name": "Thinkpad","price": 6000,"quantity": 8},
+  {"name": "Dell","price": 12000,"quantity": 4},
+  {"name": "HP","price": 20000,"quantity":3 },
+  {"name": "Mac Book","price": 17000,"quantity": 6},
+  {"name": "Lenovo","price": 19999,"quantity": 2},
+  {"name": "Thinkpad","price": 6000,"quantity": 8},
+  {"name": "Dell","price": 12000,"quantity": 4},
+  {"name": "HP","price": 20000,"quantity":3 },
+  {"name": "Mac Book","price": 17000,"quantity": 6},
+  {"name": "Lenovo","price": 19999,"quantity": 2}
+]

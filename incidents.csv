@@ -1,0 +1,6 @@
+Id,Title,Description,Service,Date
+1,Network Outage,"The company's network is currently down, affecting all departments.",IT Services,2022
+2,Server Failure,"One of the critical servers has experienced a failure, impacting several services.",IT Services,2020
+3,Software Bug,"A bug in the latest software release is causing unexpected behavior in the application.",Development,2020
+4,Security Breach,"Unauthorized access to the system detected. Security protocols activated.",Security,2022
+5,Hardware Malfunction,"Issue with hardware components causing disruptions in various systems.",IT Services,2021
