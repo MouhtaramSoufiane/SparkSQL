@@ -15,6 +15,6 @@ public class Exo1 {
         Dataset<Row> dataset = sparkSession.read().option("header", true).csv("incidents.csv");
 //        dataset.groupBy(col("service")).count().show();
 
-        dataset.groupBy(col("date")).count().limit(2).show();
+        dataset.groupBy(col("date")).count().limit(2).select(col("date").as("JOUR"),col("count").as("NOMBRE DE INCIDENTS")).show();
     }
 }

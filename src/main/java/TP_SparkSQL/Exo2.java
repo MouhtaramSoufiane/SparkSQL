@@ -15,7 +15,10 @@ public class Exo2 {
                 .master("local[*]")
                 .getOrCreate();
 
-        Map<String, String> options = Map.of("driver", "com.mysql.jdbc.Driver", "url", "jdbc:mysql://localhost:3306/DB_HOSPITAL?createDatabaseIfNotExist=true","user","root","password","");
+        Map<String, String> options = Map.of("driver", "com.mysql.jdbc.Driver",
+                "url", "jdbc:mysql://localhost:3306/DB_HOSPITAL?createDatabaseIfNotExist=true",
+                "user","root",
+                "password","");
 
         Dataset<Row> dfConsultations=sparkSession.read().format("jdbc")
                 .options(options)
